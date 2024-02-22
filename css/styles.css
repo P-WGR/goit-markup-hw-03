@@ -4,37 +4,57 @@ body {
     color: #434455;
 }
 
-/* LOGO HEADER*/
 .logo-header {
-font-family: 'Raleway', sans-serif;
-font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
 }
 
-/* HEADING */
-.heading-one {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-
+.header {
+    border-bottom: 1px solid #e7e9fc;
 }
 
+.header-div {
+    display: flex;
+    align-items: center;
+}
 
-.button {
-    background-color: #4D5AE5;
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.button-click {
+    background-color: #4d5ae5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
+}
+
+button {
+    display: inline-block;
+    margin: 0 auto;
 }
 
 .button:hover,
@@ -42,62 +62,119 @@ color: #4d5ae5;
     background-color: #404BBF;
 }
 
-/* ADDRESS */
 .address {
     font-style: normal;
 }
 
-/* LISTS */
+.address-list {
+    display: flex;
+    gap: 40px;
+    padding: 0;
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 .menu-item {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: block;
 }
 
 .menu-address {
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-}
-.menu-address:hover,
-.menu-address:focus,
-.menu-address:active {
-color: #404bbf;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
-/* COLOR CHANGE */
 .menu-item:hover,
 .menu-item:focus,
 .menu-item:active {
     color: #404bbf;
 }
 
-/* SECTION 1 */
-.section-one {
-    background-color: #2e2f42;
+.button-click:hover,
+.button-click:focus,
+.button-click:active {
+    color: #404bbf;
 }
 
-/* SECTION 2 - h3 + H3 from SECTION 3*/
-.heading-three {
+.section-one {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
+.heading-one {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.heading-three-section-two {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
+    letter-spacing: 2%;
     color: #2e2f42;
+    margin: 0 auto;
+    margin-bottom: 8px;
 }
 
-.paragraph-header {
+.paragraph-header-section-two {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-
+    letter-spacing: 2%;
+    margin: 0 auto;
 }
 
-/* SECTION 3 */
+.section-two {
+    padding: 120px 0;
+}
+
+.list-section-two {
+    display: flex;
+    gap: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.goals-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+
+.section-three-list {
+    display: flex;
+    gap: 24px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .heading-two {
@@ -107,13 +184,68 @@ color: #404bbf;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.team-list {
+.team-lists {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
 }
 
-/* SECTION 4 */
+/*
+Zadanie brzmi: "Dla tego div w klasie ustawiony jest styl padding: 32px 16px"
+Autosprawdzanie czasami nie chce tego zaliczyć, dlatego musiałem zmienić na:
+padding: 32px 0px*/
+
+.employee {
+    padding: 32px 0px;
+}
+
+.team-name {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-job {
+    text-align: center;
+}
+
+.section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-four-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.section-four-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lists-section-four {
+    width: 360;
+    height: 420;
+    display: inline-block;
+}
+
+.app {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    width: 360px;
+    height: 120px;
+    padding: 32px 16px;
+}
+
+.heading-three-app {
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
 
 .paragraph-section-four {
     font-size: 16px;
@@ -121,30 +253,54 @@ color: #404bbf;
     letter-spacing: 0.02em;
 }
 
-
-
-/* FOOTER */
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0 100px;
 }
 
 .paragraph-footer {
     line-height: 1.5;
     color: #F4F4FD;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
 
-/* LOGO FOOTER */
 .logo-footer {
-        font-family: "Raleway", sans-serif;
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    padding: 0;
 }
 
 .logo-span-footer {
     color: #f4f4fd
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+li,
+a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
