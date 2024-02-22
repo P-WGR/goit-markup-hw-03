@@ -17,7 +17,7 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    height: 72px;
+    
 }
 
 .header-div {
@@ -29,6 +29,7 @@ body {
     display: flex;
     align-items: center;
     margin-right: auto;
+    height: 72px;
 }
 
 .container {
@@ -56,7 +57,6 @@ button {
     display: inline-block;
     margin: 0 auto;
 }
-
 .button:hover,
 .button:focus {
     background-color: #404BBF;
