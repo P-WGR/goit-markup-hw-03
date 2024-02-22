@@ -1,0 +1,150 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+}
+
+/* LOGO HEADER*/
+.logo-header {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+/* HEADING */
+.heading-one {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+
+}
+
+/* BUTTON */
+.button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+/* ADDRESS */
+.address {
+    font-style: normal;
+}
+
+/* LISTS */
+.menu-item {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.menu-address {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.menu-address:hover,
+.menu-address:focus,
+.menu-address:active {
+color: #404bbf;
+}
+
+/* COLOR CHANGE */
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
+    color: #404bbf;
+}
+
+/* SECTION 1 */
+.section-one {
+    background-color: #2e2f42;
+}
+
+/* SECTION 2 - h3 + H3 from SECTION 3*/
+.heading-three {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.paragraph-header {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
+
+/* SECTION 3 */
+.section-three {
+    background-color: #F4F4FD;
+}
+
+.heading-two {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-list {
+    background-color: #FFFFFF;
+}
+
+/* SECTION 4 */
+
+.paragraph-section-four {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+
+/* FOOTER */
+.footer {
+    background-color: #2e2f42;
+}
+
+.paragraph-footer {
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em
+}
+
+/* LOGO FOOTER */
+.logo-footer {
+        font-family: "Raleway", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4d5ae5;
+}
+
+.logo-span-footer {
+    color: #f4f4fd
+}
