@@ -202,13 +202,32 @@ padding: 32px 0px*/
     padding: 32px 0px;
 }
 
-.team-name {
+.titles-person {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
     margin-bottom: 8px;
 }
 
+.portfolio {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin: 0 auto;
+}
+
 .team-job {
     text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .section-four {
@@ -221,9 +240,6 @@ padding: 32px 0px*/
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-}
-
-.section-four-list {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -243,15 +259,11 @@ padding: 32px 0px*/
     padding: 32px 16px;
 }
 
-.heading-three-app {
-    margin: 0 auto;
-    margin-bottom: 8px;
-}
-
-.paragraph-section-four {
+.portfolio-next {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 8px;
 }
 
 .footer {
